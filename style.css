@@ -26,8 +26,134 @@ body {
 .obal {
     width: 960px; /* obsah stránky je omezený do pruhu širokého 960px */
     margin: 0 auto; /* pruh je na stránce vycentrovaný */
+    margin-bottom: 150px;
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+
+h1 {
+    color: white;
+    font-size: 90px;
+    font-weight: 400;
+    margin: 0 0 26px 0;
+}
+
+h2 {
+    color: white;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 120%;
+    margin: 10px 0 65px 0;
+}
+
+h3 {
+    color: #48418e;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* -------------------------- */
+
+.menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+	padding: 15px 42px;
+    color: #25133d;
+    font-weight: 700;
+	text-transform: uppercase;
+}
+
+.odkazy {
+    display: flex;
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.odkazy a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #25133d;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
+.odkazy a:hover {
+    padding: 15px 30px 14px 30px;
+    border-bottom: solid 1px #25133d;
+}
+
+/* -------------------------- */
+
+.vizual {
+    position: relative;
+    background-image: url(images/pozadi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    padding-bottom: 76px;
+}
+
+.telefon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.tlacitka a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 17px 30px;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px -2px rgb(39, 39, 39);
+}
+
+.tlacitka a:hover {
+    background-color: #48418e;
+}
+
+/* -------------------------- */
+
+.obsah {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 20px;
+    text-align: center;
+}
+
+.sloupec {
+    width: calc( (100% - 130px) / 3);
+}
+
+.sloupec .popis {
+    color: #333;
+}
+
+.bublina {
+    width: 70px;
+}
+
+/* -------------------------- */
+
+.zapati {
+    color: white;
+    text-align: center;
+    background-color: #48418e;
+}
+
+.zapati p {
+   padding: 10px;
+   color: #e5e5e5;
+   font-size: 14px;
+}
